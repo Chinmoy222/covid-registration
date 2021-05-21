@@ -1,0 +1,65 @@
+body{
+    background-image: url('blur.png');
+    background-size: cover;
+    height: 100%;
+    width: 18rem;
+}
+.heading{
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    bottom: 55px;
+    left: -50px;
+    color: black;
+    transform: rotate(-90deg);
+}
+h2, label, p {
+    color: aliceblue;
+}
+.collapse p{
+    margin-bottom: 10px;
+}
+.maincont{
+    position: relative;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem 0rem 2rem 4rem;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.white{
+    color: white;
+}
+.white:hover{
+    color: #909090;
+}
+.fwd-options{
+    background-color: #404040;
+}
+
+.ribbon{
+    position: absolute;
+    background-color: blue;
+    width: 35px;
+    height: 2rem;
+    left: 0;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.footer{
+    color: aliceblue;
+    position: absolute;
+    background-color: black;
+    border-top-left-radius: 30px;
+    padding: 0 1rem;
+    right: 0px;
+    bottom: -16px;
+    font-size: x-small;
+}
+.inst{
+    display: block;
+    font-size: small;
+    text-decoration: none;
+}
